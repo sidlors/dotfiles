@@ -1,19 +1,23 @@
 [user]
-	email = danirod@outlook.com
-	name = Dani Rodríguez
+    email = sidlord@hotmail.com
+    name = Juan Perez Jolote 
+
+[include]
+    path=~/.gitconfig.local
 
 [alias]
-        # 99.9% times I review the log I use it this way. It makes sense.
-        lod = log --oneline --decorate --color
-        co = checkout
-        ci = commit
+    lodag = log --oneline --decorate --color --all
+    lod = log --oneline --decorate --color
+    co = checkout
+    ci = commit
+    ap = add -p
+    am = commit --amend
+    unadd = reset HEAD --
 
-# The following code is not mine.
-# Taken from http://www.kunday.com/post/29594688306/git-config-hacks
 [color]
-        branch = auto
-        diff = auto
-        status = auto
+    branch = auto
+    diff = auto
+    status = auto
 
 [color "branch"]
     current = yellow reverse
