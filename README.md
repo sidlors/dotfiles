@@ -9,7 +9,7 @@ Clonamos este repositorio por ejemplo en `~/.dotfiles` (Lugar remomendado para s
 
 y como ejemplo, supongamso que zsh  openbox y tmux lo queremos aplicar a nuestra cuenta de usuario de linux
 
-    git clone git://github.com/danirod/dotfiles ~/.dotfiles
+    git clone git://github.com/sidlors/dotfiles ~/.dotfiles
     cd ~/.dotfiles
     stow zsh
     stow openbox
