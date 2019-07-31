@@ -7,7 +7,7 @@ alias radiouniversal='mplayer http://18733.live.streamtheworld.com/XHRED_FM.mp3'
 alias radiojazz='mplayer http://imer-edge1.cdnstream.com/1518_64'
 
 ## Colorize the ls output ##
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 ## Use a long listing format ##
 alias ll='ls -alFh'
 ## Show hidden files ##
