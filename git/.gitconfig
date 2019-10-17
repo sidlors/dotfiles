@@ -6,7 +6,7 @@
     path=~/.gitconfig.local
 
 [alias]
-    lodag = log --oneline --decorate --color --all
+    lodag = log --oneline --decorate --color --all --graph
     lod = log --oneline --decorate --color
     co = checkout
     ci = commit
