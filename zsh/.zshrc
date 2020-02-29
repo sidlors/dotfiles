@@ -14,7 +14,7 @@ export TERM="xterm-256color"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs vi_mode)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 neofetch
@@ -72,6 +72,7 @@ plugins=(
         docker 
         docker-compose
         history
+        virtualenv
         )
 
 source $ZSH/oh-my-zsh.sh
@@ -110,3 +111,8 @@ fi
 export M2_HOME=/usr/share/maven
 export PATH="$HOME/anaconda3/bin:$M2_HOME:$PATH"
 source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export JAVA_6_HOME=/usr/lib/jvm/jdk1.6.0_45
+export JAVA_7_HOME=/usr/lib/jvm/jdk1.7.0_80
+export JAVA_8_HOME=/usr/lib/jvm/java-8-oracle
+export JAVA_9_HOME=/usr/lib/jvm/jdk-9.0.4
+
